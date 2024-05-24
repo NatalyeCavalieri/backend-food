@@ -1,4 +1,4 @@
-const knex = require("../dataBase/knex")
+const knex = require("../database/knex")
 
 class UsersValidatedControllers {
   async index(request, response) {

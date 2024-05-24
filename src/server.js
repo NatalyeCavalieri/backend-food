@@ -21,7 +21,7 @@ app.use(
   })
 )
 
-const sqliteConnection = require("./dataBase/sqlite")
+const sqliteConnection = require("./database/sqlite")
 sqliteConnection()
 
 

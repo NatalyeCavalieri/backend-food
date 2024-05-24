@@ -1,6 +1,6 @@
 const authConfig = require("../configs/auth")
 const AppError = require("../utils/appError")
-const knex = require("../dataBase/knex")
+const knex = require("../database/knex")
 const { sign } = require("jsonwebtoken")
 const { compare } = require("bcryptjs")
 

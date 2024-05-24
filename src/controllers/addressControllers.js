@@ -1,5 +1,5 @@
 const AppError = require("../utils/appError")
-const knex = require("../dataBase/knex")
+const knex = require("../database/knex")
 
 class AddressController {
   async create(request, response) {
